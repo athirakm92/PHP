@@ -153,7 +153,7 @@
                     <table class="table">
                       <tr>
                         <th style="width:50%">Subtotal:</th>
-                        <td><?php echo '$ '.$subtotal;?></td>
+                        <td><?php echo '$'.$subtotal;?></td>
                       </tr>
 					  
                       <tr>
@@ -174,7 +174,7 @@
                         <td>
 						<?php 
 							$subtotalwithtax = $subtotal+$taxamount;
-							echo '$ '.$subtotalwithtax; ?>
+							echo '$'.$subtotalwithtax; ?>
 							<input hidden id="subtotalwithtax" value="<?php echo $subtotalwithtax;?>">
 						</td>
                       </tr>
@@ -184,7 +184,7 @@
                       </tr>
                       <tr>
                         <th>Total:</th>
-                        <td id="totalamount"><?php echo '$ '.$subtotalwithtax;?></td>
+                        <td id="totalamount"><?php echo '$'.$subtotalwithtax;?></td>
                       </tr>
 					  
                     </table>
